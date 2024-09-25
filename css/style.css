@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    background-color:rgb(189, 125, 176);
+}
+h1{
+    background-color: rgb(33, 12, 12);
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+    /* text-align: center; */
+}
+.choices{
+    display: flex;
+    /* background-color: rgb(212, 223, 223); */
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 3rem;
+    height: 300px;
+   
+
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    display: contents;
+    justify-content: center;
+    border-radius: 50%;
+    align-items: center;
+}
+img{
+    height: 175px;
+    width: 175px;
+    object-fit: cover;
+    border-radius: 50%;
+   align-items: center;
+
+}
+.choice:hover{
+    /* opacity: 0.2; */
+    cursor: pointer;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    background-color: rgba(27, 9, 9, 0.808);
+    
+
+}
+.score_board{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 4rem;
+    margin-top: 2rem;
+    color: white;
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+}
+
+.massage_container {
+    margin-top: 2rem;
+}
+
+#msg{
+    
+    background-color: rgb(182, 182, 207);
+    color: rgb(184, 131, 131);
+    font-size: 2.4rem;
+    font-family:sans-serif;
+    font-weight:600;
+    display: inline;  
+    border-radius: 5rem;
+    padding: 0.5rem;
+   
+}
